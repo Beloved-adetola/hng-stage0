@@ -17,18 +17,23 @@ It demonstrates a simple API endpoint that returns basic information about the d
    Create a variable called PORT and set it to 3000
    e.g PORT=3000
   
-5. Start the server
+4. Start the server
   node server.js
+
+5. Open http://localhost:3000/me in your browser
 
 ## 🛠️ Dependencies Used
 1. Node.js (v22+)
-  - Download from nodejs.org
+  - Download from [nodejs.org](https://nodejs.org/)
+
 2. Express.js
   - Install using npm install express
+
 3. dotenv
   - Install using npm install dotenv
+
 4. cors
   - Install using npm install cors
+
 5. Axios
   - Install using npm install axios
-  
