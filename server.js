@@ -19,9 +19,9 @@ app.get("/me", async (req, res) => {
     const payload = {
       status: "success",
       user: {
-        name: process.env.USER_NAME,
-        email: process.env.USER_EMAIL,
-        stack: process.env.USER_STACK,
+        name: "Adetola Beloved",
+        email: "belovedadetola@gmail.com",
+        stack: "Node.js/Express",
       },
       timestamp: new Date().toISOString(),
       fact: catFact,
@@ -33,9 +33,9 @@ app.get("/me", async (req, res) => {
     res.status(200).json({
       status: "success",
       user: {
-        name: process.env.USER_NAME,
-        email: process.env.USER_EMAIL,
-        stack: process.env.USER_STACK,
+        name: "Adetola Beloved",
+        email: "belovedadetola@gmail.com",
+        stack: "Node.js/Express",
       },
       timestamp: new Date().toISOString(),
       fact: "Cats are mysterious, but our fact service is currently unavailable.",
